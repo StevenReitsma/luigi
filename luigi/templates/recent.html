@@ -14,7 +14,7 @@
   <tbody>
     {% for task in tasks %}
       <tr>
-        <td><a href="/history/by_id/{{task.id}}">{{task.name}}</a></td>
+        <td><a href="history/by_id/{{task.id}}">{{task.name}}</a></td>
         <td>{{task.host}}</td>
         <td>{{task.events[0].ts}}</td>
         <td>{{task.events[0].event_name}}</td>
